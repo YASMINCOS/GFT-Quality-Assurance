@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class FilaDoBanco { 
+ 
+    public static void main(String[] args) { 
+ 
+    int n =3;
+    String[] nomesFila = new String[n]; 
+    Scanner nome = new Scanner(System.in);
+    String nome1 = nome.next();
+    String nome2 = nome.next();
+    String nome3 = nome.next();
+    
+    System.out.println(nome1 + " -esta na posicao: 1 \n" + nome2 + " -esta na posicao: 2 \n" + nome3 + " -esta na posicao: 3");
+   
+}
+}

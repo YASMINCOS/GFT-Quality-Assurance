@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class FilaDoBanco { 
+ 
+    public static void main(String[] args) { 
+ 
+    int n =3;
+    String[] nomesFila = new String[n]; 
+    Scanner nome = new Scanner(System.in);
+    String nome1 = nome.next();
+    String nome2 = nome.next();
+    String nome3 = nome.next();
+    
+ 
+    for (int i=0; i<=n; i++) {
+    	System.out.println(nome1+"Posicao" +nomesFila[n] );
+    	nomesFila[i]=nome.next();
+    }
+}
+}

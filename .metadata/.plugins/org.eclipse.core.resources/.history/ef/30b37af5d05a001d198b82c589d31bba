@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class FilaDoBanco {
+
+	public static void main(String[] args) { 
+		 
+	    String[] nomesFila = new String[3]; 
+	    Scanner nome = new Scanner(System.in); 
+	    System.out.println(nome + "esta na posicao: " + nomesFila[0]);
+	    System.out.println(nome + "esta na posicao: " + nomesFila[1]);
+
+	  } 
+}

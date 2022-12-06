@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Pizza {
+
+
+  public static void main(String[] args) {
+    final int SLICE = 4;
+    Scanner scanner = new Scanner(System.in);
+
+    int T = scanner.nextInt();
+    int calculo;
+    
+    calculo = T* 3/SLICE;
+    System.out.println(calculo);
+
+         
+        
+   
+}
+}

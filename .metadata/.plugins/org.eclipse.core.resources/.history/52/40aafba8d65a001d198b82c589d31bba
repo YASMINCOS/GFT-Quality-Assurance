@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class FilaDoBanco { 
+ 
+    public static void main(String[] args) { 
+ 
+    String[] nomesFila = new String[3]; 
+    Scanner nome = new Scanner(System.in); 
+    int n =0 ;
+    while(n<0) {
+    	System.out.println(nome + "Na posicao" + nomesFila[n]);
+    	nomesFila[n] = nome.next();
+    	n++;
+    }
+}
+}
